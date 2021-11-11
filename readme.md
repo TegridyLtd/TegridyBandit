@@ -31,7 +31,7 @@ The package comes with two example scenes and scripts for both a 2D GUI and a 3D
     BanditSettings – HouseRake is the amount the house will take out of the pot for each spin, and the win chance is the chance of winning if a prize pot has enough to pay out.
     AudioSettings – If these values are left empty the default audio set in the controller will be used.
     TimeSettings – Min/Max ImageSwaps is used to decide how many times the machine should spin the wheels and this will be a random number between the two values, swap delay is the time between swaps and spinDelay is the time between the spin ending and then being able to spin again.
-      
+
 ##Configuring 3D Scene
 
 
