@@ -11,7 +11,7 @@ The Controller comes with an example of a 2d and 3d implementation that be can b
 **Usage**
 The package comes with two example scenes and scripts for both a 2D GUI and a 3D model based system that demonstrate how the TegridyBanditController can easily be utilised to give reliable results with simple integration into your projects.
 
-![Tegridy](./1.png)
+![Tegridy](./1.png.png)
 
 **Configuring 2D Scene**
 Create an empty GameObject in your scene and add the TegridyBanditDigital component to the object.
