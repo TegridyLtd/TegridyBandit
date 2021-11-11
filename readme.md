@@ -1,5 +1,8 @@
 #Tegridy Bandit Controller
+<<<<<<< HEAD
 
+=======
+>>>>>>> d008b936e49b1619dda9155a0856c9bd5c2a3d79
 **About**
 The Tegridy Bandit controller provides a simple solution to implement your own pot and odd based multi wheeled bandits / fruit machines with simple configuration and adaption. 
 
@@ -13,18 +16,28 @@ The package comes with two example scenes and scripts for both a 2D GUI and a 3D
 ![Tegridy](./1.png)
 
 **Configuring 2D Scene**
+<<<<<<< HEAD
     Create an empty GameObject in your scene and add the TegridyBanditDigital component to the object.
     Add any default audio you would like use, this is used when no audio clips have been set on the GUI. These can be left null if no audio is required.  
     You will require at least two images for your prize symbols imported into the scene to configure the GUI Later.
     You will want to build your desired GUI in the editor then add 4 buttons to spin the machine, change the stake and close down plus an ImageObject for each of the slots you want on the machine. Also add TextMeshPro text object for the stake display Additional fields can be completed for debug output
     Add the TegridyBanditDigitalGUI to the GUI you just created and configure the component as described below.
     Once you have all your GUI’s configured, set the size of machines on the TegridyBanditDigital component and for each element drag your GUI’s into the gui variable.
+=======
+    • Create an empty GameObject in your scene and add the TegridyBanditDigital component to the object.
+    • Add any default audio you would like use, this is used when no audio clips have been set on the GUI. These can be left null if no audio is required.  
+    • You will require at least two images for your prize symbols imported into the scene to configure the GUI Later.
+    • You will want to build your desired GUI in the editor then add 4 buttons to spin the machine, change the stake and close down plus an ImageObject for each of the slots you want on the machine. Also add TextMeshPro text object for the stake display Additional fields can be completed for debug output
+    • Add the TegridyBanditDigitalGUI to the GUI you just created and configure the component as described below.
+    • Once you have all your GUI’s configured, set the size of machines on the TegridyBanditDigital component and for each element drag your GUI’s into the gui variable.
+>>>>>>> d008b936e49b1619dda9155a0856c9bd5c2a3d79
 
 **Configuring 2D GUI Example**
 
 ![Tegridy](./2.png)
 
 ##**GUI Objects**
+<<<<<<< HEAD
     Prize Settings - Set the size to match the Prize Symbols you imported earlier, then for each element set the picture variable to the desired image and  prize to what the players stake should be multiplied by if they win. If this prize should have its own audio add the clips to prizeSound
     Wheels - Add the ImageObjects you created in the scene earlier here these will be changed as the machine “spins”. 
     Other UI - You will also want to configure the values for close, stake, spin, stakeUp, stakeDown along with the increments you would like the stake modified.
@@ -32,6 +45,15 @@ The package comes with two example scenes and scripts for both a 2D GUI and a 3D
     AudioSettings – If these values are left empty the default audio set in the controller will be used.
     TimeSettings – Min/Max ImageSwaps is used to decide how many times the machine should spin the wheels and this will be a random number between the two values, swap delay is the time between swaps and spinDelay is the time between the spin ending and then being able to spin again.
 
+=======
+    • Prize Settings - Set the size to match the Prize Symbols you imported earlier, then for each element set the picture variable to the desired image and  prize to what the players stake should be multiplied by if they win. If this prize should have its own audio add the clips to prizeSound
+    • Wheels - Add the ImageObjects you created in the scene earlier here these will be changed as the machine “spins”. 
+    • Other UI - You will also want to configure the values for close, stake, spin, stakeUp, stakeDown along with the increments you would like the stake modified.
+    • BanditSettings – HouseRake is the amount the house will take out of the pot for each spin, and the win chance is the chance of winning if a prize pot has enough to pay out.
+    • AudioSettings – If these values are left empty the default audio set in the controller will be used.
+    • TimeSettings – Min/Max ImageSwaps is used to decide how many times the machine should spin the wheels and this will be a random number between the two values, swap delay is the time between swaps and spinDelay is the time between the spin ending and then being able to spin again.
+      
+>>>>>>> d008b936e49b1619dda9155a0856c9bd5c2a3d79
 ##Configuring 3D Scene
 
 
