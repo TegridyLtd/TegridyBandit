@@ -26,7 +26,7 @@ Once you have all your GUI’s configured, set the size of machines on the Tegri
 
 ![Tegridy](./2.png)
 
-##**GUI Objects**
+**GUI Objects**
 
 Prize Settings - Set the size to match the Prize Symbols you imported earlier, then for each element set the picture variable to the desired image and  prize to what the players stake should be multiplied by if they win. If this prize should have its own audio add the clips to prizeSound
 Wheels - Add the ImageObjects you created in the scene earlier here these will be changed as the machine “spins”. 
@@ -35,24 +35,24 @@ BanditSettings – HouseRake is the amount the house will take out of the pot fo
 AudioSettings – If these values are left empty the default audio set in the controller will be used.
 TimeSettings – Min/Max ImageSwaps is used to decide how many times the machine should spin the wheels and this will be a random number between the two values, swap delay is the time between swaps and spinDelay is the time between the spin ending and then being able to spin again.
 
-##Configuring 3D Scene
+**Configuring 3D Scene**
 
 ![Tegridy](./3.png)
 
 For this scene you will require 3D models that will represent the wheels of the machine, once you have these add them to your scene and then add the TegridyBanditPhysical component. These models should be skinned with your prize symbols and can contain different amounts of symbols on each wheel.
       
-##TegridyBanditPhysical Configuration
+**TegridyBanditPhysical Configuration**
 
 ![Tegridy](./4.png)
 
-World Settings – If SetWheelPos is true the program will presume your wheel models have equal spacing for the prize symbols and will work out the rotations based of the offset for the wheel automatically, if not set you will need to configure the rotations for each wheel manually. Rotation will happen on any axis set to true.
-Wheels – Add the transforms of your wheel objects here.
+**World Settings** – If SetWheelPos is true the program will presume your wheel models have equal spacing for the prize symbols and will work out the rotations based of the offset for the wheel automatically, if not set you will need to configure the rotations for each wheel manually. Rotation will happen on any axis set to true.
+**Wheels** – Add the transforms of your wheel objects here.
 
 ![Tegridy](./5.png)
 
 
-Prizes -  The size should be set to the number of unique prizes that are on the wheel.  If a prize is won the payers stake will be multiplied by prize. If this prize should have a unique sound it can be set in prizeSound.
-Wheels – Offset should be set to the rotation your first prize lines up on, symbols should be set to the amount of symbols on that wheel. Each symbols ID should be set to the index of the Prize that it matches. If you have set setWheelPos to true above you can leave the position field as default, if not you will need to enter the rotation for each symbol on all your prize wheels.
+**Prizes** -  The size should be set to the number of unique prizes that are on the wheel.  If a prize is won the payers stake will be multiplied by prize. If this prize should have a unique sound it can be set in prizeSound.
+**Wheels** – Offset should be set to the rotation your first prize lines up on, symbols should be set to the amount of symbols on that wheel. Each symbols ID should be set to the index of the Prize that it matches. If you have set setWheelPos to true above you can leave the position field as default, if not you will need to enter the rotation for each symbol on all your prize wheels.
 
 
 ![Tegridy](./6.png)
